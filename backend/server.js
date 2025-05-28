@@ -25,11 +25,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Routes
 app.use('/api', orderRoutes);
 
-// Serve React app (if you want to serve the frontend from this server)
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
-});
-
 // Error handling middleware (must be last)
 app.use(errorHandler);
 
