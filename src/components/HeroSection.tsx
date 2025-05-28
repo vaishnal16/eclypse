@@ -25,7 +25,7 @@ export const HeroSection: React.FC = () => {
             className="w-full h-auto object-cover rounded-lg sm:rounded-xl lg:rounded-2xl"
             style={{ minHeight: '300px' }}
           >
-            <source src="./video-1.mp4" type="video/mp4" />
+            <source src="/video-1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           
